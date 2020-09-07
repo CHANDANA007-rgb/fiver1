@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap");
+:root {
+    --green: #00b30c;
+    --gray1: #353537;
+    --gray2: #777777;
+
+}
+h1,
+h2,
+h3{
+font-family: 'Roboto', sans-serif;
+font-size: 700;
+}
+h2 {
+    font-size: 3rem;
+}
+
+/* Header scroll*/
+.header-scroll {
+  opacity: 0;
+  margin-top: -300px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-bottom:1px solid rgba(0, 0, 0,  0.1);
+  transition: all 0.5s ease;
+}
+.header-scroll.active{
+    opacity: 1;
+    margin-top: 0;
+}
+
+.header-scroll .nav-link {
+    color: #777;
+}
+
+.header-scroll .btn-outline-success{
+    color: #00b30c;
+
+}
+.header-scroll .btn-outline-success:hover {
+    color: #fff;
+
+}
+#header{
+    background-image: url(/fiver/hero.jpg);
+    background-size: cover;
+    min-height: 30rem;
+}
+a.btn-outline-light:hover{
+    color: black !important;
+}
+.header .nav-link{
+    color: white !important;
+}
+.hero-title {
+    font-weight: 700;
+}
+.hero-caption{
+    min-height: 25rem;
+}
+/* Features */
+
+.category {
+    overflow: hidden;
+    padding-bottom: 60px;
+    height: calc(auto + 30px);
+}
+.category p{
+    opacity: 0;
+    padding-top: 30px;
+    transition: all .3s ease;
+}
+.category h3::before {
+    content: '';
+    display: block;
+    margin: 5px auto 20px auto;
+    height: 2px;
+    width: 60px;
+    background-color: #00b30c;
+    transition: all .3s ease;
+
+}
+.category:hover h3::before {
+    width: 180px;
+
+} 
+.category:hover p {
+    display: blank;
+    opacity: 1;
+    padding-top: 10px;
+    color: #999;
+}
+
+.category h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+
+}
+#banner .row{
+    height: 25rem;
+
+}
+/* features */
+#features .logo{
+    background-image: url(/fiver/service_1.png);
+}
+#features .description{
+    height: 20rem;
+    background-size: cover;
+
+}
+#features .description p { 
+    font-size: 0.9rem;
+
+}
+#features .description span{
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+ #features .social-media {
+    background-image: url(/fiver/service_2.png);
+}
+#features .audio {
+    background-image: url(/fiver/service_3.png);
+}
+#features .translate {
+    background-image: url(/fiver/service_4.png);
+}
+#features .wordpress {
+    background-image: url(/fiver/service_5.png);
+}
+#features .description {
+    height: 20rem;
+    background-size: cover;
+}
+#features .description p {
+    font-size: 0.9rem;
+}
+#features .description span {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#features .row .div>div {
+    flex: 0 0 calc(50% - 1rem);
+    margin-top: 1rem; 
+
+}
+
+@media (min-width: 992px) {
+    #features .row>div {
+        flex: 0 0 calc(20% - 1rem);
+        margin-top: 0;
+    }
+}
+#lady .row{
+    height: 25rem;
+
+}
+#guide .logo{
+    background-image: url(/fiver/service_1.png);
+}
+#guide .description{
+    height: 20rem;
+    background-size: cover;
+
+}
+#guide .description p { 
+    font-size: 0.9rem;
+
+}
+#guide .description span{
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+ #fea .social-media {
+    background-image: url(/fiver/service_2.png);
+}
+#features .audio {
+    background-image: url(/fiver/service_3.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
